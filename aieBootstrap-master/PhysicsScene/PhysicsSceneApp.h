@@ -2,9 +2,12 @@
 
 #include "Application.h"
 #include "Renderer2D.h"
+#include "PhysicsScene.h"
 
 class PhysicsSceneApp : public aie::Application {
 public:
+
+	PhysicsScene* m_physicsScene;
 
 	PhysicsSceneApp();
 	virtual ~PhysicsSceneApp();
