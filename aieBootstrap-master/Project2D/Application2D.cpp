@@ -3,6 +3,7 @@
 #include "Font.h"
 #include "Input.h"
 
+
 Application2D::Application2D() {
 
 }
@@ -14,7 +15,6 @@ Application2D::~Application2D() {
 bool Application2D::startup() {
 	
 	m_2dRenderer = new aie::Renderer2D();
-
 	m_texture = new aie::Texture("./textures/numbered_grid.tga");
 	m_shipTexture = new aie::Texture("./textures/ship.png");
 
